@@ -1,0 +1,129 @@
+@import {
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+}
+
+* {
+	font-family: Montserrat, sans-serif;
+}
+
+div {
+	width:600px;
+	height:600px;
+	text-align:center;
+	margin-left: 250px;
+} 
+
+
+img {
+
+	margin-left: 250px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+img:hover {
+	opacity:0.7;
+	filter: aplha (opacity=40);
+}
+
+.header_h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px;
+	color:white;
+	font-weight:300;
+}
+
+.header_h2 {
+	font-size: 14px;
+	margin-top: -20px;
+	color:white;
+	font-weight:200;
+}
+
+#header {
+	height:200px;
+	width:200px;
+	border-radius:100%;
+	position:fixed;
+	background-color:black;
+	margin-left:50px;
+	z-index:1;
+}
+
+
+#light_grey {
+	background-color:#f2f0f0;
+	width:auto;
+}
+
+#grey {
+	background-color:#c1c0c0;
+	width:auto;
+}
+
+#dark_grey {
+	background-color:#919090;
+	width:auto;
+}
+
+
+.intro {
+	color:#919090;
+	font-size:28px;
+	text-align: right;
+	font-weight:100;
+}
+
+.second_block {
+	color:white;
+	text-align: right;
+	font-weight:100;
+	font-size:50px;
+}
+
+.third_block {
+	color:#c1c0c0;
+	font-size:60px;
+	text-align: right;
+	font-weight:100;
+}
+
+#dark_grey > p:last-child {
+	font-size:40px;
+}
+
+#footer {
+	background-color:#f2f0f0;
+	width:auto;
+	height:70px;
+	margin-top: 10px;
+	color:#919090;
+	font-weight:100;
+	margin-left:250px;
+}
+
+#footer > p:first-child {
+    float: left;
+    text-align: left;
+    width: 30%; 
+}
+
+#footer > p:nth-child(2) {
+    float: left;
+    text-align: center;
+    width: 30%; 
+}
+
+#footer > p:last-child {
+    float: right;
+    text-align: right;
+    width: 30%;
+}
+
+a {
+	color:#c1c0c0;
+	text-decoration: none;
+}
+a:hover {
+	color:white;
+}
